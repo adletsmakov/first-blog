@@ -1,0 +1,81 @@
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Где сдать кровь</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="myFunctions.js"></script>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <img src="images\logo.png">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index">Главная</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="form">Стать донором</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="why">Процедура сдачи крови</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="maps">Где сдать кровь?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="news">Новости</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+  <div class="news">
+
+    <p>Выберите город: </p>
+
+    <select id="test" name="test">
+      <option value="Astana">Астана</option>
+          <option value="Almaty">Алматы</option>
+
+    </select>
+<br>
+    <p>Адрес центра крови:</p>
+    <div class="container">
+    <div class="col">
+    <div id="container">
+
+    <div id="Astana">
+
+          <p>г. Астана, Есильский район Керей, Жанибек хандар, 10</p>
+      <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+      <script charset="utf-8">new DGWidgetLoader({"width":960,"height":400,"borderColor":"#a3a3a3","pos":{"lat":51.116225800077316,"lon":71.40746355056764,"zoom":16},"opt":{"city":"astana"},"org":[{"id":"70000001018125844"}]});</script>
+    </div>
+    <div id="Almaty">
+            <p>г.  Алматы, Керей, Бостандыкский район, ул. Утепова,10
+</p>
+      <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+      <script charset="utf-8">new DGWidgetLoader({"width":960,"height":400,"borderColor":"#a3a3a3","pos":{"lat":43.219519,"lon":76.901052,"zoom":16},"opt":{"city":"almaty"},"org":[{"id":"9429940000799788"}]});</script>
+</div>
+    </div>
+
+
+
+</div>
+</div>
+    </div>
+
+</body>
+</html>

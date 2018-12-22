@@ -1,0 +1,95 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  font-family: "Google Sans";
+}
+
+.navbar {
+  background: green;
+  margin: 0 auto;
+  width: 960px;
+  height: 50px;
+}
+
+
+.navbar ul li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.navbar ul li a {
+  margin:auto;
+  font-size: 16px;
+  color:white;
+}
+
+.navbar ul li a:hover {
+    color: lightblue;
+}
+
+.form2{
+  width: 600px;
+  height: 1050px;
+  margin: auto;
+  background-color: white;
+}
+
+#title {
+ font-size: 24px;
+ text-align: center;
+ margin-top: 30px;
+}
+
+.form1 hr{
+  size: 24px;
+  width: 500;
+  align: center;
+}
+
+.form1 p{
+margin-left: 30px;
+}
+
+.form1 input {
+ margin-left: 30px;
+border-radius: 100px;
+padding: 5px;
+}
+
+
+.form1 select {
+margin-left: 30px;
+  border-radius: 100px;
+  padding: 10px;
+  width: 150px;
+}
+
+.form1 select option {
+}
+
+.form1 textarea {
+margin-left: 30px;
+  border-radius: 10px;
+padding: 5px;
+}
+
+.btn1 {
+  margin-top: 10px;
+    border-radius: 100px;
+   padding: 10px;
+    size: 50px;
+    margin-left: 200px;
+      width: 200px;
+}
+
+hr{
+  width:550px;
+   border: 1px solid;
+}
+
+iframe{
+  margin-top: 50px;
+}
